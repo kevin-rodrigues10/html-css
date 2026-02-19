@@ -63,6 +63,7 @@ section{
 
 section > p{
     font-family: "Indie Flower", cursive;
+    padding-bottom: 1em;
 }
 
 section.normal{
@@ -74,6 +75,8 @@ section.normal{
 section.imagem{
     background-color: rgb(41, 41, 41);
     color: white;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.616);
+    background-attachment: fixed;
 
 }
 
@@ -81,9 +84,23 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
 
-    background-color: rgba(0, 0, 0, 0.258)
+    background-color: rgba(0, 0, 0, 0.596);
+    text-shadow: 1px 1px 0px;
 
 }
+section#img01{
+    background-image: url(background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img02{
+    background-image: url(background002.jpg);
+    background-size: cover;
+
+}
+
 
 
 

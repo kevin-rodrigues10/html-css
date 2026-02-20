@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 6px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+
+        }
+        caption, tfoot{
+            background-color: rgba(0, 0, 0, 0.82);
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.3em;
+
+        }
+        td.num{
+            width: 50px;
+            text-align: right;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+
+    <table>
+        <caption>população brasileira 2026</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+           
+
+        </thead>
+        <tbody>
+            <tr>
+
+            <td>São Paulo</td>
+            <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.850.513</td>
+                
+            </tr>
+            <tr>
+                <td>Paraná </td>
+                <td class="num">11.824.665</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.229.915</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.539.029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.233.656</td>
+            </tr>
+            <tr>
+                <td> Pará </td>
+                <td class="num"> 8.664.306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8.058.441</td>
+            </tr>
+            <td> Goiás</td>
+            <td class="num">7.350.483</td>
+        </tr>
+        <tr>
+            <td>Maranhão</td>
+            <td class="num"> 7.010.960</td>
+        </tr>
+        <tr>
+            <td>Amazonas</td>
+            <td class="num">4.281.209</td>
+        </tr>
+            
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">210.147.125</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>

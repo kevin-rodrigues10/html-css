@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            width: 500px;
+            text-align: center;
+        }
+         caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            
+        }
+        th{
+            font-weight: bold;
+
+        }
+        tr.destaque{
+            background-color: 
+            ;
+        }
+        .cnome{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Leon</td>
+                <td>M</td>
+                <td>60</td>
+                <td>Advogado</td>
+            </tr>
+             <tr class="destaque">
+                <td>Marcelo</td>
+                <td>M</td>
+                <td>46</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>F</td>
+                <td>55</td>
+                <td>Gestora de Eergia</td>
+            </tr>
+             <tr>
+                <td>Isabella</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Psicologa</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Jornalista</td>
+            </tr>
+             <tr>
+                <td>Marcia</td>
+                <td>F</td>
+                <td>35</td>
+                <td>Engenheira Mecanica</td>
+            </tr>
+             <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>27</td>
+                <td>Programador</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

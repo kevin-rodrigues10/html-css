@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de formulario</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="cadastro.php" method="post">
+    <p>
+        <label for="iuso">Usuário</label>
+        <input type="text" name="usu" id="iuso" required minlength="5"
+        maxlength="15" size="30" placeholder="xaropinho">
+    </p>
+    <p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="sen" id="isen" required minlength="8">
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="clear">
+    </p>
+    </form>
+    
+</body>
+</html>

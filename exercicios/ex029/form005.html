@@ -8,15 +8,25 @@
 <body>
     <form action="cadastro.php" method="get" autocomplete="on"> 
         <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="M"> 
+            
+            <label for="isxmas">Maculino</label> 
+            <br>
+            <input type="radio" name="sexo" id="isxfem" value="F" checked> 
+            
+            <label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
             <legend>Esportes favoritos</legend>
-            <input type="checkbox" name="esfut" id="iesfut">Futebol
-            <input type="checkbox" name="esvol" id="iesvol">Volei
-            <input type="checkbox" name="esping" id="iesping">ping-pong
-            <input type="checkbox" name="esbas" id="iesbas">Basquete
+            <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut" aria-checked="">Futebol</label> <br>
+            <input type="checkbox" name="esvol" id="iesvol"><label for="iesvol">Volei</label> <br>
+            <input type="checkbox" name="esping" id="iesping"><label for="iesping">ping-pong</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label> <br>
         </fieldset>   
      <p>
          <input type="submit" value="Enviar">
          <input type="reset" value="Limpar">
      </p>
-    </form>>
+    </form>
 </html>

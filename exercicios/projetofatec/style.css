@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/c%C3%A9u-azul-com-sol-e-as-nuvens-bonitas-43776528.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    background-color: #0B3C5D;
+}
+header > h1,
+header > p {
+    text-align: center;
+    color: white;
+    
+}
+header > nav > ul > li{
+    display: inline;
+    list-style: none;
+  
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+     color: white;
+     padding: 10px;
+}
+header > nav > ul > li > a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.559);
+}
+main{
+    margin: 5px 70px 10px 70px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.824);
+    font-size: 1.3em;
+    padding: 10px;
+    
+}
+main > section#hero > h1,
+main > section#hero > p{
+    text-align: center;
+}
+section#projetos{
+    border: 1px solid black;
+}
+section > div.container-projetos > h2{
+    text-align: center;
+}
+section#projetos >div.container-projetos > div.card-projetos {
+    border: 1px solid black;
+    width: 300px;
+    height: 600px;
+}

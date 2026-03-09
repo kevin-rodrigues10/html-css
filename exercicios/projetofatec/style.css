@@ -39,25 +39,60 @@ header > nav > ul > li > a:hover{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.559);
 }
 main{
-    margin: 5px 70px 10px 70px;
-    border-radius: 10px;
+    
+    
+}
+main> section#conteudo{
     background-color: rgba(255, 255, 255, 0.824);
+    border-radius: 10px;
+    margin: 5px 70px 10px 70px;
     font-size: 1.3em;
     padding: 10px;
-    
 }
 main > section#hero > h1,
 main > section#hero > p{
     text-align: center;
 }
-section#projetos{
+#caixa{
+    width: 90vw;
+    height: 590px;
+    background-color: rgba(255, 255, 255, 0.808);
+    margin: 4rem auto;
     border: 1px solid black;
+    display: flex;
+    padding: 1rem;
+    overflow-x: auto;
+    color: white;
 }
-section > div.container-projetos > h2{
-    text-align: center;
+#caixa > div{
+    min-width: 400px;
+    max-height: 570px;
+    background-color: darkblue;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px black;
 }
-section#projetos >div.container-projetos > div.card-projetos {
-    border: 1px solid black;
-    width: 300px;
-    height: 600px;
+#caixa > div > h3{
+    color: white;
+    font-size: 1.4em;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+#caixa > div > ul{
+    list-style: none;
+    padding-bottom: 10px;   
+}
+#caixa > div > p{
+    padding: 1px;
+    text-align: left;
+    color: white;
+    text-align: justify;
+}
+#caixa > div > img{
+    width: 350px;
+    padding-left:10px ;
+    display: block;
+    margin: auto;
 }

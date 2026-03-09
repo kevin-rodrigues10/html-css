@@ -7,13 +7,13 @@
     
 }
 body{
-    background-image: url(https://thumbs.dreamstime.com/b/c%C3%A9u-azul-com-sol-e-as-nuvens-bonitas-43776528.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color: #0A3754;
 }
 header{
     background-color: #0B3C5D;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 header > h1,
 header > p {
@@ -21,15 +21,21 @@ header > p {
     color: white;
     
 }
-header > nav > ul > li{
+header > div{
+    background-color: #0d4a72;
+}
+header > div > nav > ul > li{
     display: inline;
     list-style: none;
+
+    
   
 }
-header > nav > ul > li > a{
+header > div > nav > ul > li > a{
     text-decoration: none;
      color: white;
      padding: 10px;
+    
 }
 header > nav > ul > li > a:hover{
     background-color: white;
@@ -39,6 +45,9 @@ header > nav > ul > li > a:hover{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.559);
 }
 main{
+    max-width: 1500px;
+    margin: auto;
+
     
     
 }

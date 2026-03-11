@@ -6,6 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
+section{
+    scroll-margin-top: 80px;
+}
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #0A3754;
 }
@@ -58,10 +64,121 @@ main> section#conteudo{
     font-size: 1.3em;
     padding: 10px;
 }
-main > section#hero > h1,
-main > section#hero > p{
-    text-align: center;
+#hero{
+    background-color: #021F59;
+    color: white;
+    padding: 60px 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.577);
 }
+.hero-img img{
+    width: 650px;
+    border-radius: 30px;
+}
+#hero > .banner{
+    max-width: 650px;  
+    max-height: 490px; 
+}
+#hero > .banner > h1{
+    font-size: 4em;
+    line-height: 1em;
+    
+}
+#hero > .banner > p{
+    font-size: 1.8em;
+    text-align: justify;
+}
+#hero > .banner > .estatisticas{
+    display: flex;
+    padding-top: 120px;
+    gap: 60px;
+} 
+.stat h2{
+    font-size: 35px;
+    margin: 0;
+}
+.stat p{
+    margin: 5px 0 0 0;
+    font-size: 20px;
+}
+#botao{
+    background-color: #f4b400;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+  
+}
+#botao:hover{
+    box-shadow: 0px 0px 3px #f4b400;
+    transform: scale(1.05);
+   
+
+}
+#service > a{
+    text-decoration: none;
+    color: white;
+}
+
+#service{
+    background-color: #f4b400;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#service:hover{
+    box-shadow: 0px 0px 3px #f4b400;
+    transform: scale(1.05);
+}
+#servicos{
+    background-color: #0339A6;
+    height: 1000px;
+}
+
+    #quadrados{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 40px auto;
+}
+.caixinha{
+    background-color: #f2f2f2;
+    padding: 0px;
+    border-radius: 8px;
+    text-align: left;
+    height: 250px;
+    width: 430px;
+    font-size: 1.3em;
+    box-shadow:2px 3px 4px rgba(0, 0, 0, 0.577);
+    
+}
+#titulos{
+    text-align: center;
+    font-weight: bold;
+}
+#titulos > h2{
+    padding-top: 70px;
+    font-size: 1em;
+
+}
+#titulos > h3{
+
+}
+
 #caixa{
     width: 90vw;
     height: 590px;
@@ -73,15 +190,22 @@ main > section#hero > p{
     overflow-x: auto;
     color: white;
 }
+
 #caixa > div{
     min-width: 400px;
     max-height: 570px;
-    background-color: darkblue;
-    border: 1px solid white;
+    background-color: #0B3C5D;
+    border: none;
     margin: 10px;
-    padding: 10px;
-    border-radius: 25px;
-    box-shadow: 1px 1px 1px black;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+#caixa > div:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.35);
 }
 #caixa > div > h3{
     color: white;
@@ -105,3 +229,4 @@ main > section#hero > p{
     display: block;
     margin: auto;
 }
+

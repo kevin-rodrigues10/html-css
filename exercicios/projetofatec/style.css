@@ -68,7 +68,7 @@ main> section#conteudo{
     background-color: #021F59;
     color: white;
     padding: 60px 70px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,15 +85,22 @@ main> section#conteudo{
 #hero > .banner > h1{
     font-size: 4em;
     line-height: 1em;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+    background: linear-gradient(90deg, #ffb400, #ff7a00);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 #hero > .banner > p{
     font-size: 1.8em;
     text-align: justify;
+    color: #5a6b82;
 }
 #hero > .banner > .estatisticas{
     display: flex;
-    padding-top: 120px;
+    padding-top: 105px;
     gap: 60px;
 } 
 .stat h2{
@@ -146,27 +153,36 @@ main> section#conteudo{
     background-color: #0339A6;
     height: 1000px;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.696);
-    border-radius: 15px;
+    border-radius: 0px 0px 0px 0px;
 }
-#titulos{
+.titulos{
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-#titulos > h2{
+.titulos > h2{
 padding-top: 70px;
 font-size: 1em;
 color: #f4b400;
-font-size: 1.75em;
+font-size: 1.50em;
+font-family: 'Montserrat', sans-serif;
 }
-#titulos > h1{
+.titulos > h1{
 color: white;
 font-family: 'Montserrat', sans-serif;
 font-weight: 700;
 font-size: 3.5em;
 }
-#titulos > h3{
-
+.titulos > h3{
+font-size: 22px;
+color: #5a6b82;
+text-align: center;
+line-height: 1.6;
+max-width: 800px;
+margin: auto;
+font-family: 'Open Sans', sans-serif;
 }
 #quadrados{
 display: grid;
@@ -254,6 +270,13 @@ margin-top: 1px;
     padding-left:10px ;
     display: block;
     margin: auto;
+}
+#processo{
+max-width: 1500px;
+margin: auto;
+margin: auto;
+height: 800px;
+background-color: #418EF2;
 }
 
 

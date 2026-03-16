@@ -145,39 +145,66 @@ main> section#conteudo{
 #servicos{
     background-color: #0339A6;
     height: 1000px;
-}
-
-    #quadrados{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    width: 80%;
-    margin: 40px auto;
-}
-.caixinha{
-    background-color: #f2f2f2;
-    padding: 0px;
-    border-radius: 8px;
-    text-align: left;
-    height: 250px;
-    width: 430px;
-    font-size: 1.3em;
-    box-shadow:2px 3px 4px rgba(0, 0, 0, 0.577);
-    
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.696);
+    border-radius: 15px;
 }
 #titulos{
     text-align: center;
     font-weight: bold;
+    text-decoration: none;
 }
 #titulos > h2{
-    padding-top: 70px;
-    font-size: 1em;
-
+padding-top: 70px;
+font-size: 1em;
+color: #f4b400;
+font-size: 1.75em;
+}
+#titulos > h1{
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 3.5em;
 }
 #titulos > h3{
 
 }
-
+#quadrados{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+width: 80%;
+margin: 40px auto;
+padding-left: 0px;
+margin-left: 80px;
+}
+.caixinha{
+background-color: #f2f2f2;
+padding: 15px;
+border-radius: 8px;
+text-align: left;
+height: 240px;
+width: 400px;
+font-size: 1.3em;
+box-shadow:2px 3px 4px rgba(0, 0, 0, 0.577);
+}
+.caixinha > span{
+padding: 1px;
+border-radius: 8px;
+font-size: 2.4em;
+margin: 10px;
+color: rgb(246, 246, 15);
+background-color: #f4b400;
+transition: 0.4s;
+}
+.caixinha > span:hover{
+transform: scale(1.04);
+}
+.caixinha > p{
+margin-top: 1px;
+}
+.caixinha > h3{
+    margin-top: 30px;
+}
 #caixa{
     width: 90vw;
     height: 590px;
@@ -228,4 +255,5 @@ main> section#conteudo{
     display: block;
     margin: auto;
 }
+
 

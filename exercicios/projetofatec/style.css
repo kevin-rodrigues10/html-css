@@ -4,7 +4,6 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 section{
     scroll-margin-top: 80px;
@@ -24,8 +23,7 @@ header{
 header > h1,
 header > p {
     text-align: center;
-    color: white;
-    
+    color: white;  
 }
 header > div{
     background-color: #0d4a72;
@@ -34,17 +32,11 @@ header > div{
 header > div > nav > ul > li{
     display: inline;
     list-style: none;
-    
-
-    
-  
 }
 header > div > nav > ul > li > a{
     text-decoration: none;
      color: white;
-     padding: 10px;
-    
-    
+     padding: 10px; 
 }
 header > nav > ul > li > a:hover{
     background-color: white;
@@ -56,9 +48,6 @@ header > nav > ul > li > a:hover{
 main{
     max-width: 1500px;
     margin: auto;
-
-    
-    
 }
 main> section#conteudo{
     background-color: rgba(255, 255, 255, 0.824);
@@ -95,7 +84,6 @@ main> section#conteudo{
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
 #hero > .banner > p{
     font-size: 1.8em;
@@ -126,19 +114,15 @@ main> section#conteudo{
     transition: 0.3s;
     margin-right: 5px;
     margin-top: 10px;
-    
 }
 #botao:hover{
-
     box-shadow: 0px 0px 3px #f4b400;
     transform: scale(1.05);
-
 }
 #service > a{
     text-decoration: none;
     color: white;
 }
-
 #service{
     background-color: #f4b400;
     color: white;
@@ -167,100 +151,109 @@ main> section#conteudo{
     padding-bottom: 70px;
 }
 .titulos > h2{
-padding-top: 70px;
-font-size: 1em;
-color: #f4b400;
-font-size: 1.50em;
-font-family: 'Montserrat', sans-serif;
+    padding-top: 70px;
+    font-size: 1em;
+    color: #f4b400;
+    font-size: 1.50em;
+    font-family: 'Montserrat', sans-serif;
 }
 .titulos > h1{
-color: white;
-font-family: 'Montserrat', sans-serif;
-font-weight: 700;
-font-size: 3.5em;
-
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
     background: linear-gradient(90deg,#ffffff, #dbeafe);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .titulos > h3{
-font-size: 22px;
-color: #5a6b82;
-text-align: center;
-line-height: 1.6;
-max-width: 800px;
-margin: auto;
-font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #5a6b82;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 #quadrados{
-display: grid;
-grid-template-columns: repeat(3, 450px);
-gap: 20px;
-justify-content: center;
-margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 20px;
+    justify-content: center;
+    margin: 40px auto;
 }
 .caixinha{
-background-color: #f2f2f2;
-padding: 15px;
-border-radius: 8px;
-text-align: left;
-height: 240px;
-font-size: 1.3em;
-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.577);
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    height: 240px;
+    font-size: 1.3em;
+    box-shadow:2px 3px 4px rgba(0, 0, 0, 0.577);
 }
 .caixinha > span{
-padding: 1px;
-border-radius: 8px;
-font-size: 2.4em;
-margin: 10px;
-color: rgb(246, 246, 15);
-background-color: #f4b400;
-transition: 0.4s;
+    padding: 1px;
+    border-radius: 8px;
+    font-size: 2.4em;
+    margin: 10px;
+    color: rgb(246, 246, 15);
+    background-color: #f4b400;
+    transition: 0.4s;
 }
 .caixinha > span:hover{
-transform: scale(1.04);
+    transform: scale(1.04);
 }
 .caixinha > p{
-margin-top: 1px;
+    margin-top: 1px;
 }
 .caixinha > h3{
-margin-top: 30px;
+    margin-top: 30px;
 }
-
-
-
-
 #processo{
-max-width: 1500px;
-background: linear-gradient(135deg, #010626, #03318C);
-height: 800px;
-text-align: center;
-
+    max-width: 1500px;
+    background: linear-gradient(135deg, #010626, #03318C);
+    height: 800px;
+    text-align: center;
+}
+#separacao {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
 }
 .process{
-  height: 290px;
-  width: 300px; 
-  background-color: #0339A6;
-  border-radius: 8px;
-  padding: 15px;
-  text-align: left;
- box-shadow: inset 10px 10px 300px black;
+    height: 290px;
+    width: 300px; 
+    background-color: #0339A6;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
 
-
+.process > span{
+    padding: 1px;
+    border-radius: 8px;
+    font-size: 3.4em;
+    margin: 10px;
+    color: rgb(246, 246, 15);
+    background-color: #f4b400;
+}
+.process > h3{
+    padding-top: 25px;
+    padding-left: 4px;    
+    font-size: 1.4em;
+    font-weight: bolder;
 }
 .process > p{
     line-height: 26px;
-    
-
-
+    padding-top: 20px;
+    padding-left: 4px;
+    font-size: 1.09em;
+    font-family: 'Open Sans', sans-serif;
 }
-#separacao {
- display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 20px;
-}
+
 
 
 
@@ -286,9 +279,8 @@ text-align: center;
     overflow-x: auto;
     color: white;
 }
-
 #caixa > div{
-    min-width: 400px;
+    min-width: 430px;
     max-height: 570px;
     background-color: #0B3C5D;
     border: none;
@@ -298,9 +290,11 @@ text-align: center;
     box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
     transition: 0.3s;
 }
-
-#caixa > div:hover{
-    transform: translateY(-8px);
+#caixa:has(> div:hover) > div:not(:hover){ 
+    transform: scale(0.96);
+ } 
+#caixa > div:hover{ 
+    transform: translateY(-8px); 
     box-shadow: 0px 15px 30px rgba(0,0,0,0.35);
 }
 #caixa > div > h3{

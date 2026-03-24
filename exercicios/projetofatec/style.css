@@ -253,6 +253,18 @@ main> section#conteudo{
     font-size: 1.09em;
     font-family: 'Open Sans', sans-serif;
 }
+#why{
+    max-width: 1500px;
+    height: 1000px;
+    background: linear-gradient(to right, #16288C, #122173);
+}
+#motivos{
+
+}
+.cx{
+    
+}
+
 
 
 
@@ -319,6 +331,10 @@ main> section#conteudo{
     display: block;
     margin: auto;
 }
-
+#final{
+    max-width: 1500px;
+    height: 800px;
+    background: linear-gradient(to right, #f4b400, #ff7a00);
+}
 
 
